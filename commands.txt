@@ -1,0 +1,26 @@
+Image:
+- Create docker image: docker build -t "user_name_id/image-name:tag" . 
+- Remove image: docker rmi "image-id"
+- Push image to registry: docker push "image-name:tag"
+- Pull image from registry: docker pull "image-name:tag"
+- List all local images: docker images
+
+Container:
+- Run a cointainer: docker run -p "porta ex: 8080:80" "image-name:tag"
+- Remove container: container: docker rm "container-id"
+- List all running containers: docker ps
+- List all running containers that it is not running anymore: docker ps
+- Stop container: docker stop "container-id"
+- Running shell within a container: --interactive --tty 
+- Dot not store the container after stop: --rm
+- Name a container: --name "container-name" docker-image
+- Start a existing container: docker start "container-name" 
+- Attach he shell inside the container: docker attach "container-name"
+
+Volume:
+- Create docker volume: docker volume create "my-volume-name"
+- Set the volume on wsl/linux: docker run --mount source="my-volume",destination="/path/to/volume/" "image-name"
+- Set the volume on local system: docker run --mount= type=bind,source="{PWD}/path",destination="/path/to/volume/" "image-name"
+
+Other:
+- Login: docker login
