@@ -9,3 +9,7 @@ A Docker image is a lightweight, standalone, and executable package that include
 A Docker container is a runtime instance of a Docker image. It provides an isolated environment where the application runs with all its required dependencies pre-installed. Containers ensure consistency across different environments, allowing the project to function exactly as intended, regardless of where it is deployed. Each container is lightweight, portable, and runs independently, making it ideal for developing, testing, and deploying applications efficiently.
 
 ![image](https://github.com/user-attachments/assets/a23ee8ff-292a-4198-a8a0-9c7c31a227f1)
+
+![image](https://github.com/user-attachments/assets/010481bc-fd32-43d6-8d6a-0715123838c2)
+
+The [course](https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/00-introduction/01-main) where I obtained the most of information. It's definitely one of the best I've seen on the topic.
