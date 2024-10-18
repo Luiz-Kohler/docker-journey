@@ -10,6 +10,10 @@ A Docker container is a runtime instance of a Docker image. It provides an isola
 
 ![image](https://github.com/user-attachments/assets/a23ee8ff-292a-4198-a8a0-9c7c31a227f1)
 
+## Docker Infra
+
 ![image](https://github.com/user-attachments/assets/010481bc-fd32-43d6-8d6a-0715123838c2)
+
+## Credits
 
 The [course](https://courses.devopsdirective.com/docker-beginner-to-pro/lessons/00-introduction/01-main) where I obtained the most of information. It's definitely one of the best I've seen on the topic.
