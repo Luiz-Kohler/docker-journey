@@ -24,3 +24,4 @@ Volume:
 
 Other:
 - Login: docker login
+- Passing secrects credentials: --secrect id=secret.txt,src=local-secret.txt \
