@@ -1,0 +1,8 @@
+
+services:
+  api:
+    ports:
+      - "8080:8080"
+    build: ./API
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Docker Compose Develop"

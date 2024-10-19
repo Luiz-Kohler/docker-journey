@@ -3,7 +3,7 @@ Image:
 - Remove image: docker rmi "image-id"
 - Push image to registry: docker push "image-name:tag"
 - Pull image from registry: docker pull "image-name:tag"
-- List all local images: docker images
+- List all loca l images: docker images
 
 Container:
 - Run a cointainer: docker run -p "porta ex: 8080:80" "image-name:tag"
@@ -25,3 +25,6 @@ Volume:
 Other:
 - Login: docker login
 - Passing secrects credentials: --secrect id=secret.txt,src=local-secret.txt \
+- Run container in background: -d
+- Pass env variables: --env, -e, --env-file
+- Remove all stopped containers: prune
